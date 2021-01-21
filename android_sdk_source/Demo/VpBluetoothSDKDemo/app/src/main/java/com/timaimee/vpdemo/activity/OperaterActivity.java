@@ -1641,9 +1641,8 @@ public class OperaterActivity extends Activity implements AdapterView.OnItemClic
     }
 
     /**
-     *
-     * 	密码验证之前，要调用这个方法
-     * 	因为在密码验证之后，inPttModel/outPttModel其中一个会有回调
+     * 密码验证之前，要调用这个方法
+     * 因为在密码验证之后，inPttModel/outPttModel其中一个会有回调
      */
     public void listenDeviceCallbackData() {
         VPOperateManager.getMangerInstance(mContext).settingDeviceControlPhone(new IDeviceControlPhoneModelState() {

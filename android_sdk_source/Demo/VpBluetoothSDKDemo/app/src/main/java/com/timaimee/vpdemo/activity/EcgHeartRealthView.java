@@ -221,7 +221,7 @@ public class EcgHeartRealthView extends View {
         this.item_contents = item_content;
         linePositionX = linePositionX % rowEcgCount;
         for (int i = linePositionX; i < linePositionX + item_contents; i++) {
-            if (i  >= rowEcgCount) {
+            if (i >= rowEcgCount) {
                 linePositionX = -item_content;
                 break;
             }
